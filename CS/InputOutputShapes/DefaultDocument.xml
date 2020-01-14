@@ -2,7 +2,7 @@
   <Items>
     <Item1 ItemKind="DiagramRoot" SelectedStencils="CustomStencil">
       <Children>
-        <Item1 Position="440,280" Size="120,230" CanAttachConnectorBeginPoint="false" CanAttachConnectorEndPoint="false" Header="Decoder" ShowHeader="true" DragMode="ByAnyPoint" ItemsCanSelect="false" ItemsCanMove="false" ItemKind="DiagramContainer">
+        <Item1 Position="480,280" Size="120,230" CanAttachConnectorBeginPoint="false" CanAttachConnectorEndPoint="false" Header="Decoder" ShowHeader="true" DragMode="ByAnyPoint" ItemsCanSelect="false" ItemsCanMove="false" ItemKind="DiagramContainer">
           <Children>
             <Item1 Position="0,40" Size="NaN,NaN" MinSize="10,10" Anchors="Left" Background="#FF000000" Tag_type="System.String" Tag="input" ConnectionPoints="0,0.5" Shape="BasicShapes.Ellipse" ItemKind="DiagramShape" />
             <Item2 Position="12,30" Size="NaN,30" Anchors="Left" CanAttachConnectorBeginPoint="false" CanAttachConnectorEndPoint="false" Background="#00FFFFFF" Foreground="#FF000000" StrokeThickness="0" Content="input 1" ItemKind="DiagramShape" />
@@ -18,12 +18,12 @@
             <Item12 Position="60,160" Size="NaN,30" Anchors="Right" CanAttachConnectorBeginPoint="false" CanAttachConnectorEndPoint="false" Background="#00FFFFFF" Foreground="#FF000000" StrokeThickness="0" Content="output 4" ItemKind="DiagramShape" />
           </Children>
         </Item1>
-        <Item2 BeginItemPointIndex="-1" EndItemPointIndex="0" Points="435,344 435,344.53" ItemKind="DiagramConnector" EndItem="0,0" BeginPoint="360,344" EndPoint="440,344.53" />
-        <Item3 BeginItemPointIndex="-1" EndItemPointIndex="0" Points="435,444 435,444.53" ItemKind="DiagramConnector" EndItem="0,2" BeginPoint="360,444" EndPoint="440,444.53" />
-        <Item4 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="0,4" BeginPoint="560,324.53" EndPoint="640,324.53" />
-        <Item5 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="0,6" BeginPoint="560,374.53" EndPoint="640,374.53" />
-        <Item6 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="0,8" BeginPoint="560,424.53" EndPoint="640,424.53" />
-        <Item7 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="0,10" BeginPoint="560,474.53" EndPoint="640,474.53" />
+        <Item2 BeginItemPointIndex="-1" EndItemPointIndex="0" Points="475,344 475,344.53" EndLeftLabel="1" EndLabelArrowOffset="2" ItemKind="DiagramConnector" EndItem="0,0" BeginPoint="400,344" EndPoint="440,344.53" />
+        <Item3 BeginItemPointIndex="-1" EndItemPointIndex="0" Points="475,444 475,444.53" EndLeftLabel="2" EndLabelArrowOffset="2" ItemKind="DiagramConnector" EndItem="0,2" BeginPoint="400,444" EndPoint="440,444.53" />
+        <Item4 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" BeginLeftLabel="1" BeginLabelArrowOffset="6" BeginLabelConnectorOffset="2" EndLeftLabel="" ItemKind="DiagramConnector" BeginItem="0,4" BeginPoint="560,324.53" EndPoint="680,324.53" />
+        <Item5 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" BeginLeftLabel="2" BeginLabelArrowOffset="6" BeginLabelConnectorOffset="2" ItemKind="DiagramConnector" BeginItem="0,6" BeginPoint="560,374.53" EndPoint="680,374.53" />
+        <Item6 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" BeginLeftLabel="3" BeginLabelArrowOffset="6" BeginLabelConnectorOffset="2" ItemKind="DiagramConnector" BeginItem="0,8" BeginPoint="560,424.53" EndPoint="680,424.53" />
+        <Item7 BeginItemPointIndex="0" EndItemPointIndex="-1" Points="(Empty)" BeginLeftLabel="4" BeginLabelArrowOffset="6" BeginLabelConnectorOffset="2" ItemKind="DiagramConnector" BeginItem="0,10" BeginPoint="560,474.53" EndPoint="680,474.53" />
       </Children>
     </Item1>
   </Items>
